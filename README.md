@@ -8,7 +8,7 @@
 **Turn raw data into decisions – automatically.**  
 Upload any CSV/Excel file and let AI analyze, visualize, and explain insights in plain English. No coding, no manual chart selection. Built as part of my **ALGONIVE Internship Task**.
 
-🔗 **Live Demo:** [https://data-storytelling-ai.streamlit.app](https://data-storytelling-ai.streamlit.app) *(replace with your actual link)*
+🔗 **Live Demo:** [https://data-storytelling-ai-5fxuee8jse2ugtxvyto5xc.streamlit.app]
 
 ---
 
