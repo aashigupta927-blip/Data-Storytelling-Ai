@@ -81,28 +81,39 @@ echo "GROQ_API_KEY='gsk_xxxx'" > .streamlit/secrets.toml
 
 # 5. Run app
 streamlit run app.py
+---
 
-🤝 Contributing
+## 🤝 Contributing
 
-Suggestions and feedback are welcome.
+Suggestions and feedback are welcome.  
 Feel free to open an issue or fork the repo.
 
-📞 Connect with Me
+---
 
-I’m actively looking for Data Analyst Intern roles.
+## 📞 Connect with Me
+
+I’m actively looking for Data Analyst Intern roles.  
 Let’s connect!
 
-🙏 Acknowledgements
-ALGONIVE – Internship task inspiration
-Groq – Free LLM API
-Streamlit – App development framework
-DeepSeek AI – Debugging support
-📄 License
+---
+
+## 🙏 Acknowledgements
+
+- ALGONIVE – Internship task inspiration  
+- Groq – Free LLM API  
+- Streamlit – App development framework  
+- DeepSeek AI – Debugging support  
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
+
+---
 
 <div align="center">
 
 ⭐ If you like this project, please star the repository! ⭐
 
-</div> ```
+</div>
