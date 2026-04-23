@@ -7,20 +7,22 @@
 [![Deployed](https://img.shields.io/badge/Deployed-Streamlit%20Cloud-brightgreen)](https://data-storytelling-ai-5fxuee8jse2ugtxvyto5xc.streamlit.app)
 
 **Turn raw data into decisions – automatically.**  
-Upload any CSV/Excel file and let AI analyze, visualize, and explain insights in plain English. No coding, no manual chart selection. Built as part of my **ALGONIVE Internship Task**.
+Upload any CSV/Excel file and let AI analyze, visualize, and explain insights in plain English.  
+No coding, no manual chart selection. Built as part of my **ALGONIVE Internship Task**.
 
-🔗 **Live Demo:** [https://data-storytelling-ai-5fxuee8jse2ugtxvyto5xc.streamlit.app](https://data-storytelling-ai-5fxuee8jse2ugtxvyto5xc.streamlit.app)
+🔗 **Live Demo:**  
+https://data-storytelling-ai-5fxuee8jse2ugtxvyto5xc.streamlit.app
 
 ---
 
 ## ✨ Features
 
 | Feature | Description |
-|---------|-------------|
+|--------|------------|
 | 📁 **Smart Upload** | Accepts CSV / Excel files (up to 200MB) |
 | 🧠 **Auto Column Detection** | Identifies numerical, categorical & date columns |
 | 📈 **Statistical Summary** | Mean, median, min, max, standard deviation |
-| 📊 **Auto Visualizations** | Histograms, bar charts, correlation heatmap, plus interactive charts (bar, pie/donut, line, funnel) |
+| 📊 **Auto Visualizations** | Histograms, bar charts, correlation heatmap, plus interactive charts |
 | 💡 **AI Insights** | 5–6 key business insights in bullet points |
 | 📖 **Storytelling Mode** | Detailed narrative report (6–8 sentences) |
 | 🎯 **Recommendations** | 5 actionable business suggestions |
@@ -38,7 +40,7 @@ Upload any CSV/Excel file and let AI analyze, visualize, and explain insights in
 | **Frontend & Backend** | Streamlit |
 | **Data Processing** | Pandas, NumPy |
 | **Visualization** | Matplotlib, Seaborn, Plotly |
-| **AI / LLM** | Groq API (free tier) – Llama 3.3 70B |
+| **AI / LLM** | Groq API (Llama 3.3 70B) |
 | **Language** | Python 3.10+ |
 | **Deployment** | Streamlit Cloud |
 
@@ -46,57 +48,61 @@ Upload any CSV/Excel file and let AI analyze, visualize, and explain insights in
 
 ## 🚀 How It Works (User View)
 
-1. Open the app link in any browser.
-2. Click **“Upload CSV or Excel file”** and select your dataset.
+1. Open the app link in any browser  
+2. Upload your CSV or Excel file  
 3. The app automatically:
-   - Shows data preview & column types
-   - Displays statistical summary
-   - Generates static charts (histograms, bar, heatmap)
-   - Calls AI to produce 5-6 insights, a detailed story, and 5 recommendations
-   - Opens an interactive dashboard with slicers, KPIs, dynamic chart selection, and CSV export
-4. Read the results – all in plain English.
+   - Shows data preview & column types  
+   - Displays statistical summary  
+   - Generates charts  
+   - Creates AI insights, story & recommendations  
+   - Opens an interactive dashboard  
+
+4. Read insights in plain English 🎯
 
 ---
 
 ## 📦 Local Installation
-
-Want to run this on your own machine? Follow these steps:
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/data-storytelling-ai.git
 cd data-storytelling-ai
 
-# 2. Create a virtual environment (optional but recommended)
+# 2. Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Set up your Groq API key (free)
+# 4. Add Groq API Key
 mkdir .streamlit
-echo "GROQ_API_KEY = 'gsk_xxxx'" > .streamlit/secrets.toml
+echo "GROQ_API_KEY='gsk_xxxx'" > .streamlit/secrets.toml
 
-# 5. Run the app
+# 5. Run app
 streamlit run app.py
 
-## 🤝 Contributing
-This project is part of an internship task, but suggestions and feedback are welcome. Feel free to open an issue or fork the repo.
+🤝 Contributing
 
-## 📞 Connect with Me
-I’m actively looking for Data Analyst Intern roles. Let’s connect!
+Suggestions and feedback are welcome.
+Feel free to open an issue or fork the repo.
 
-## 🙏 Acknowledgements
-ALGONIVE for the internship task that inspired this project.
+📞 Connect with Me
 
-Groq for providing a fast, free LLM API.
+I’m actively looking for Data Analyst Intern roles.
+Let’s connect!
 
-Streamlit for making data app development a joy.
+🙏 Acknowledgements
+ALGONIVE – Internship task inspiration
+Groq – Free LLM API
+Streamlit – App development framework
+DeepSeek AI – Debugging support
+📄 License
 
-DeepSeek AI for helping debug technical issues along the way.
+This project is licensed under the MIT License.
 
-## 📄 License
-This project is licensed under the MIT License – free to use, modify, and distribute.
+<div align="center">
 
-<div align="center"> ⭐ If you like this project, please star the repository! ⭐ </div> ```
+⭐ If you like this project, please star the repository! ⭐
+
+</div> ```
